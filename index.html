@@ -97,5 +97,20 @@
             <p>There are several classifications in powerlifting determining rank. These typically include Elite, Master, Class I,II,III,IV. The Elite standard is considered to be within the top 1% of competing powerlifters. Several standards exist, including the United States Powerlifting Association classifications,[50] the IPF/USAPL (single-ply) classifications,[51] the APF (multi-ply) classifications,[52] and the Anti-Drug Athletes United (ADAU, raw) classifications.[53] Countries in the former Soviet Union use a somewhat different nomenclature for the top classes, distinguishing among Masters of sport, International Class; Masters of Sport; and Candidates for Master of Sport. The Master classification should not be confused with the Master age division, which refers to athletes who are at least 40 years old</p>
          </section>
       </div>
+
+     <!--Jquery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+      <script type="text/javascript">
+         $(document).on('click', 'a[href^="#"]', function (event) {
+         event.preventDefault();
+
+         $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+         }, 500);
+      });
+      </script>
+
+      </script>
    </body>
 </html>
